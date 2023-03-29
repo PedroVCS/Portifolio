@@ -1,0 +1,30 @@
+@import '../../assets/scss/conf';
+
+*{
+    color: $white;
+}
+.card {
+        width: 18rem;
+        display: flex;
+        flex: 1.1.0;
+        margin: 2rem;
+        justify-content: center;
+        
+        
+}
+
+.card-body{
+    background: #1A1717;
+    box-shadow: 8px 8px 4px -3px rgba(252, 163, 17, 0.53);
+    border-radius: 10px;    
+}
+#dev{
+    display: flex;
+    justify-content: center;
+    background: #282525;
+    border-radius: 10px;
+    color: $white;
+    margin: 1rem;
+    
+}
+            
